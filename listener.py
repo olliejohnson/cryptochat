@@ -10,4 +10,5 @@ class Listener:
         serversocket.bind((socket.gethostname(), int(port)))
         serversocket.listen(5)
 
+print(os.getenv('LISTEN_PORT'))
 listener = Listener(os.getenv('LISTEN_PORT'))
