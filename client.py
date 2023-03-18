@@ -13,7 +13,7 @@ colors = [Fore.BLUE, Fore.CYAN, Fore.GREEN, Fore.LIGHTBLACK_EX, Fore.LIGHTBLUE_E
 client_color = random.choice(colors)
 
 SERVER_HOST = input("Server IP: ")
-SERVER_PORT = 5002
+SERVER_PORT = 36123
 seperator_token = "<SEP>"
 s = socket.socket()
 print(f"[*] Connecting to {SERVER_HOST}:{SERVER_PORT}...")

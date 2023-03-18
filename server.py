@@ -3,7 +3,7 @@ from threading import Thread
 import os
 
 SERVER_HOST = "0.0.0.0"
-SERVER_PORT = 5002
+SERVER_PORT = 36123
 seperator_token = "<SEP>"
 
 client_sockets = set()
